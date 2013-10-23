@@ -15,6 +15,7 @@ body {
 	margin: 0 auto;
 	position: relative;
 	z-index: 1;
+	width:960px;
 }
 
 /*
@@ -34,10 +35,11 @@ body {
   Typography
   ========================*/
 body {
-	font-size: 14px;
+	font-size: 12px;
 	color: #000;
 	font-family: 'arial', sans-serif;
-	line-height:20px;
+	line-height:18px;
+	background: #fff;
 }
 h1,
 h2,
@@ -405,3 +407,4 @@ ol {
 }
 .t-center {
 	text-align:center;
+}
