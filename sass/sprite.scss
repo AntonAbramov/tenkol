@@ -1,4 +1,22 @@
 @import "blueprint";
 @import "compass";
+@import "icons/*.png";
+@include all-icons-sprites(true);
 
-
+.header .main-nav a:hover .icon,
+.header .main-nav a:focus .icon,
+.header .main-nav a.active .icon{
+	@include icons-sprite(bullet-blue);
+}
+.header .tel:before {
+	@include icons-sprite(learn-more);
+}
+ul.bullet-squre li:before {
+	@include icons-sprite(bullet-squre);
+}
+ul.bullet-squre li.active:before {
+	@include icons-sprite(bullet-squre-green);
+}
+.tabs-section .tabs a.active:before {
+	@include icons-sprite(corner-top);
+}

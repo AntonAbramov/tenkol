@@ -4,8 +4,25 @@
 
   $ = jQuery;
 
-  $(document).ready(function() {});
+  $(document).ready(function() {
+    if ($(".tabs").length) {
+      $(".tabs").find('a').on("click", function(event) {
+        var idx;
+        event.preventDefault();
+        if ($(this).hasClass('active')) {
+          return false;
+        } else {
+          idx = $(this).index();
+          $(this).parents(".tabs-section").find(".tabs a").removeClass("active");
+          $(this).addClass('active');
+          return $(this).parents(".tabs-section").find(".tab-body").removeClass('opened').eq(idx).addClass('opened');
+        }
+      });
+    }
+  });
 
-  jQuery(window).load(function() {});
+  jQuery(window).load(function() {
+    $(".tabs").find('a').eq(0).click();
+  });
 
 }).call(this);
