@@ -11,6 +11,9 @@ body {
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.main .wrapper {
+	width:auto;
+}
 .wrapper {
 	margin: 0 auto;
 	position: relative;
@@ -121,16 +124,17 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 500;
 	line-height: 1;
 	margin-top:0;
+	font-weight: normal;
+	color:#000;
 }
 
 h1 {
-	font-size:24px;  margin-bottom: 5px;
+	font-size:36px;  margin-bottom: 5px;
 }
 h2 {
-	font-size: 18px; margin-bottom: 20px;
+	font-size: 24px; margin-bottom: 20px;
 }
 h3 {
 	font-size: 1.250em; margin-bottom: 15px;
@@ -646,18 +650,19 @@ ol {
 .tabs-section {
 	position: relative;
 	padding-bottom:120px;
-	margin:0 0 20px;
+	margin:0 0 40px;
 }
 .tabs-section .tabs {
 	position: absolute;
 	bottom:0;
-	height:78px;
 	left:0;
 	z-index: 2;
+	margin:0 -20px;
 }
 .main .tabs-section .tabs a {
 	width:140px;
 	height:100%;
+	height:78px;
 }
 .main .tabs-section .tabs a:first-child {
 	width:300px;
@@ -672,11 +677,9 @@ ol {
 	margin-left:20px;
 	background: #eeeeee;
 	color:#000;
+	margin-bottom:20px;
 	border-radius:10px;
 	text-decoration: none;
-}
-.tabs-section .tabs a:first-child {
-	margin-left:0;
 }
 .tabs-section .tabs a.active,
 .tabs-section .tabs a:hover,
@@ -725,7 +728,7 @@ ol {
 }
 
 .tabs-section .discription h1 {
-	font-size:36px;
+	font-size:35px;
 	line-height:36px;
 	margin:0 0 15px;
 	font-weight: normal;
@@ -814,10 +817,85 @@ ul.bullet-squre li:before {
 .sosials li:first-child {
 	margin-left:0;
 }
+.clients-list {
+	margin:0 -18px 40px;
+}
+.clients-list a {
+	display: block;
+	float:left;
+	margin:0 18px;
+}
+.clients-list a img {
+	display: block;
+}
 
+.world-map {
+	background: #0098b8;
+	padding-top:50px;
+	position: relative;
+	z-index: 2;
+}
+.world-map:before {
+	content:"";
+	border:15px solid;
+	border-color: #fff transparent transparent transparent;
+	position: absolute;
+	left:50%;
+	margin-left:-15px;
+	top:0;
+}
 
+.world-map .projects,
+.world-map .watch-porfolio{
+	text-align: center;
+	color:#fff;
+	margin: 0 0 5px;
 
+}
+.world-map .projects span:first-child {
+	color:#fdd222;
+	font-weight:bold;
+	font-size:48px;
+	line-height:48px;
+}
+.world-map .projects span {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 20px;
 
-
-
-
+}
+.world-map .watch-porfolio {
+	padding-bottom:50px;
+	background: url(../img/shadow.png) 50% 100% no-repeat;
+	margin-bottom:0;
+}
+.world-map .watch-porfolio a {
+	color:#fff;
+	font-size: 24px;
+}
+.world-map .map {
+	padding-top:40px;
+	text-align: center;
+}
+.world-map .map img {
+	max-width: 100%;
+	display: block;
+	margin:0 auto;
+}
+.air-balls {
+	background: #06abc7;
+	position: relative;
+	z-index: 3;
+	box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.2);
+}
+.air-balls .inn {
+	padding:50px 0 50px 60px;
+	background: url(../img/balls.jpg) no-repeat 100% 0;
+}
+.air-balls h2 {
+	font-size:48px;
+	color:#fff;
+	line-height: 48px;
+	margin-bottom: 30px;
+}
