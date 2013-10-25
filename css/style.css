@@ -495,6 +495,9 @@ ol {
 	display:inline-block;
 	text-indent:-999em;
 }
+textarea  {
+	resize:none;
+}
 /*===========================
  HEADER
  ============================*/
@@ -890,7 +893,7 @@ ul.bullet-squre li:before {
 	box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.2);
 }
 .air-balls .inn {
-	padding:50px 0 50px 60px;
+	padding:50px 50px 50px 60px;
 	background: url(../img/balls.jpg) no-repeat 100% 0;
 }
 .air-balls h2 {
@@ -898,4 +901,140 @@ ul.bullet-squre li:before {
 	color:#fff;
 	line-height: 48px;
 	margin-bottom: 30px;
+}
+.main-form-section {
+	width:480px;
+	margin-right:20px;
+	float:left;
+	position: relative;
+	margin-bottom:15px;
+}
+.main-form-section .six-min {
+	position: absolute;
+	left:-60px;
+	bottom:0;
+}
+.main-form-section .six-min img {
+	display: block;
+}
+.form-field:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+.form-field label {
+	display:block;
+	float:left;
+}
+.main-form-section .form-field {
+	margin:0 0 10px;
+}
+.main-form-section .form-field label {
+	width:90px;
+	padding-right:10px;
+	color:#fff;
+	padding:7px 0;
+	font-size:13px;
+}
+.main-form-section .form-field input,
+.main-form-section .form-field textarea {
+	width:80%;
+	background: #a5d7e4;
+	border:1px solid #fff;
+	padding:7px 10px;
+	font-size:13px;
+	color:#fff;
+}
+.main-form-section .form-field input:focus,
+.main-form-section .form-field textarea:focus {
+	color:#000;
+	background: #cfe9f0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.main-form-section .form-field input {
+
+}
+.main-form-section-discription {
+	float:left;
+	color:#fff;
+	width:240px;
+	line-height:24px;
+}
+.main-form-section-discription a {
+	color:#fff;
+	text-decoration: none;
+}
+.main-form-section-discription .main-office {
+	padding-bottom:10px;
+	border-bottom:1px solid #a5d7e4;
+	margin-bottom:10px;
+}
+.air-balls input[type="submit"] {
+	margin-left:90px;
+	border-radius:10px;
+	cursor: pointer;
+	color:#fff;
+	border:2px solid #fff;
+	background: #fd7f1a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fd7f1a 0%, #ec551e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fd7f1a), color-stop(100%,#ec551e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fd7f1a 0%,#ec551e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fd7f1a 0%,#ec551e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fd7f1a 0%,#ec551e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fd7f1a 0%,#ec551e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd7f1a', endColorstr='#ec551e',GradientType=0 ); /* IE6-9 */
+	font-size:18px;
+	font-weight:bold;
+	text-shadow:0 1px 1px #c33e0d;
+	padding:0 20px;
+	line-height:50px;
+	height:50px;
+}
+.air-balls input[type="submit"]:hover,
+.air-balls input[type="submit"]:focus{
+	background: #ec551e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ec551e 0%, #fd7f1a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ec551e), color-stop(100%,#fd7f1a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ec551e 0%,#fd7f1a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ec551e 0%,#fd7f1a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ec551e 0%,#fd7f1a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ec551e 0%,#fd7f1a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec551e', endColorstr='#fd7f1a',GradientType=0 ); /* IE6-9 */
+
+}
+.save-money {
+	background: #16bbd9;
+	color:#fff;
+}
+.save-money .inn {
+	padding:110px 0 50px;
+	background: url(../img/money.jpg) no-repeat 90% 100%;
+}
+.save-money h2{
+	font-size:32px;
+	margin:0 0 10px;
+	color:#fff;
+
+}
+.save-money p {
+	font-size:24px;
+}
+.responsive-section {
+	background: #8fd8e1;
+}
+.responsive-section .inn {
+	background: url(../img/mobiles.jpg) no-repeat 3% 90%;
+	padding:100px 0 80px 450px;
+}
+.responsive-section h2{
+	font-size:32px;
+	margin:0 0 10px;
+	color:#08455d;
+}
+.responsive-section p {
+	font-size:18px;
+	color:#196b8b;
 }
