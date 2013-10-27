@@ -1,1 +1,19 @@
 /* add your custom styles here */
+
+.tabs-section .tab-body {
+	padding:0 20px;
+}
+.tabs-section {
+	padding-bottom:220px;
+}
+.sosials {
+	margin:20px 0;
+}
+.team .person {
+	width:33.33333%;
+	float:left;
+	padding:0 15px;
+}
+.team .photo {
+	margin-left:-15px;
+}

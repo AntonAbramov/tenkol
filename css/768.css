@@ -1,1 +1,73 @@
 /* add your custom styles here */
+
+.air-balls .inn {
+	padding:50px 50px 50px 60px;
+	background: url(../img/balls.jpg) no-repeat 100% 0;
+}
+.air-balls h2 {
+	font-size:48px;
+	line-height: 48px;
+	margin-bottom: 30px;
+}
+.form-field label {
+	float:left;
+}
+.main-form-section {
+	width:480px;
+	margin-right:20px;
+	float:left;
+}
+.main-form-section .form-field input,
+.main-form-section .form-field textarea {
+	width:80%;
+}
+.six-min {
+	display: block;
+}
+.main-form-section-discription {
+	margin:0 0 20px 180px;
+	width:240px;
+}
+.main-form-section-submit {
+	text-align:left;
+	margin-left:90px;
+	margin-top:0;
+}
+.save-money .inn {
+	padding:110px 20px 50px;
+}
+.responsive-section .inn {
+	padding: 100px 20px 80px 450px;
+}
+.cro-section .inn {
+	padding: 90px 20px 40px;
+}
+.cro-section h2 {
+	font-size:24px;
+}
+.cro-section p {
+	font-size:23px;
+}
+.free-calculate .inn {
+	padding:60px 20px 30px;
+}
+.main .section-main-content .inn {
+	 padding: 80px 20px 80px 80px;
+}
+.footer {
+	padding:60px 20px;
+	text-align: left;
+}
+.footer .footer-nav a {
+	float:left;
+	margin-left:30px;
+}
+
+.header .contacts {
+	float:left;
+	margin-left:60px;
+}
+.contact-form {
+	width: 750px;
+	margin:0 auto 40px;
+}

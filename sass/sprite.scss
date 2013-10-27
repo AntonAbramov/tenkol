@@ -20,3 +20,9 @@ ul.bullet-squre li.active:before {
 .tabs-section .tabs a.active:before {
 	@include icons-sprite(corner-top);
 }
+.section-main-content .inn:before {
+	@include icons-sprite(shadow-left);
+}
+.section-main-content .inn:after {
+	@include icons-sprite(shadow-right);
+}

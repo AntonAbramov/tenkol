@@ -1,102 +1,109 @@
-/* line 146, icons/*.png */
-.icons-sprite, .icons-arrow-to-left, .icons-arrow-to-right, .icons-bullet-blue, .icons-bullet-gray, .icons-bullet-squre-green, .icons-bullet-squre, .icons-corner-top, .icons-fb, .icons-footer-logo, .icons-learn-more, .icons-qr, .icons-shadow-left, .icons-tw, .icons-vk, .header .main-nav a:hover .icon,
+/* line 154, icons/*.png */
+.icons-sprite, .icons-arrow-to-left, .icons-arrow-to-right, .icons-bullet-blue, .icons-bullet-gray, .icons-bullet-squre-green, .icons-bullet-squre, .icons-corner-top, .icons-fb, .icons-footer-logo, .icons-learn-more, .icons-qr, .icons-shadow-left, .icons-shadow-right, .icons-tw, .icons-vk, .header .main-nav a:hover .icon,
 .header .main-nav a:focus .icon,
-.header .main-nav a.active .icon, .header .tel:before, ul.bullet-squre li:before, ul.bullet-squre li.active:before, .tabs-section .tabs a.active:before {
+.header .main-nav a.active .icon, .header .tel:before, ul.bullet-squre li:before, ul.bullet-squre li.active:before, .tabs-section .tabs a.active:before, .section-main-content .inn:before, .section-main-content .inn:after {
   background: url('../img/icons.png') no-repeat;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-to-left {
-  background-position: 0 -375px;
+  background-position: 0 -470px;
   height: 13px;
   width: 40px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-to-right {
-  background-position: 0 -323px;
+  background-position: 0 -418px;
   height: 20px;
   width: 44px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-bullet-blue {
-  background-position: 0 -429px;
+  background-position: 0 -524px;
   height: 9px;
   width: 9px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-bullet-gray {
-  background-position: 0 -420px;
+  background-position: 0 -515px;
   height: 9px;
   width: 9px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-bullet-squre-green {
-  background-position: 0 -343px;
+  background-position: 0 -438px;
   height: 16px;
   width: 18px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-bullet-squre {
-  background-position: 0 -359px;
+  background-position: 0 -454px;
   height: 16px;
   width: 18px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-corner-top {
-  background-position: 0 -388px;
+  background-position: 0 -483px;
   height: 32px;
   width: 16px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-fb {
   background-position: 0 -181px;
   height: 24px;
   width: 24px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-footer-logo {
   background-position: 0 -157px;
   height: 24px;
   width: 202px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-learn-more {
   background-position: 0 -96px;
   height: 37px;
   width: 96px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-qr {
   background-position: 0 0;
   height: 96px;
   width: 96px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-shadow-left {
   background-position: 0 -227px;
   height: 96px;
   width: 29px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-shadow-right {
+  background-position: 0 -323px;
+  height: 95px;
+  width: 29px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-tw {
   background-position: 0 -133px;
   height: 24px;
   width: 24px;
 }
 
-/* line 60, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-vk {
   background-position: 0 -205px;
   height: 22px;
@@ -107,7 +114,7 @@
 .header .main-nav a:hover .icon,
 .header .main-nav a:focus .icon,
 .header .main-nav a.active .icon {
-  background-position: 0 -429px;
+  background-position: 0 -524px;
 }
 
 /* line 11, ../sass/sprite.scss */
@@ -117,15 +124,62 @@
 
 /* line 14, ../sass/sprite.scss */
 ul.bullet-squre li:before {
-  background-position: 0 -359px;
+  background-position: 0 -454px;
 }
 
 /* line 17, ../sass/sprite.scss */
 ul.bullet-squre li.active:before {
-  background-position: 0 -343px;
+  background-position: 0 -438px;
 }
 
 /* line 20, ../sass/sprite.scss */
 .tabs-section .tabs a.active:before {
-  background-position: 0 -388px;
+  background-position: 0 -483px;
+}
+
+/* line 23, ../sass/sprite.scss */
+.section-main-content .inn:before {
+  background-position: 0 -227px;
+}
+
+/* line 26, ../sass/sprite.scss */
+.section-main-content .inn:after {
+  background-position: 0 -323px;
+}
+
+
+@media only screen
+and (max-width : 600px) {
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+		float:none;
+		width:auto;
+	}
+	.footer .pr40,
+	.footer .pr30 {
+		padding-right:0;
+		margin-bottom:10px;
+	}
+	.icons-qr {
+		margin-top:10px;
+	}
+}
+@media only screen
+and (max-width : 768px) {
+	h1 {
+		font-size:20px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+
+
+    .free-calculate .btn-orange {
+		margin-right:0;
+    }
+    .free-calculate .btn-orange:before {
+		display:none;
+    }
 }

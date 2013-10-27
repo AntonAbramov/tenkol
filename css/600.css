@@ -1,1 +1,39 @@
 /* add your custom styles here */
+.left-column {
+	width:27.08333333333333%; /* 260 / 960 */
+}
+.header {
+	padding:10px 20px 0;
+}
+.header .logo {
+	float:left;
+	margin-right:60px;
+	text-align: left;
+}
+.header .main-nav {
+	float:left;
+	text-align: left;
+}
+.header .main-nav > section {
+	float:left;
+	margin-left:20px;
+}
+.header .main-nav > a,
+.header .main-nav section > a{
+	margin-left:20px;
+	float:left;
+	padding:20px 0;
+}
+.tabs-section .tabs a {
+	margin:0 0 20px 20px;
+}
+
+.cro-section .inn {
+	height:243px;
+}
+.city-map-section .city-map-container {
+	width:300px;
+}
+.city-map-section .city-map-container:first-child {
+	width: 350px;
+}

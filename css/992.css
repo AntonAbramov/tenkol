@@ -1,9 +1,14 @@
 @media only screen and (min-width: 992px) {
+	.wrapper {
+		width:960px;
+		padding: 0;
+	}
 	.header {
 		width:960px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top:35px;
+		padding:10px 0;
 	}
 	.footer .inn {
 		margin:0 auto;
@@ -13,4 +18,58 @@
 	.main .wrapper .inn {
 		width:960px;
 	}
+	.clients-blcok {
+		padding:0;
+	}
+    .section-main-content .inn:before {
+		width:29px;
+		height:96px;
+		content:"";
+		position: absolute;
+		bottom:0;
+		left:-29px;
+
+	}
+	.section-main-content .inn:after {
+		width:29px;
+		height:95px;
+		content:"";
+		position: absolute;
+		bottom:0;
+		right:-29px;
+	}
+	.tabs-section {
+		padding-bottom:120px;
+	}
+    .tabs-section .tabs {
+	    margin:0 -20px;
+    }
+    .tabs-section .tab-body {
+	    padding:0;
+    }
+    .tabs-section .discription {
+		width:300px;
+		float:left;
+	    text-align: left;
+	}
+	.tabs-section .picture {
+		float:left;
+		width:360px;
+	}
+	.tabs-section .options {
+		float:left;
+		width:300px;
+		text-align: left;
+	}
+    .tabs-section .discription ul.bullet-squre {
+		margin:0 0 20px 20px;
+	}
+    .main-form-section-discription {
+		text-align:left;
+		float:left;
+	    margin-left:0;
+	}
+    .top-large-picture {
+	    margin-bottom:20px;
+    }
 }
