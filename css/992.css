@@ -39,7 +39,7 @@
 		right:-29px;
 	}
 	.tabs-section {
-		padding-bottom:120px;
+		padding-bottom:115px;
 	}
     .tabs-section .tabs {
 	    margin:0 -20px;
@@ -54,11 +54,11 @@
 	}
 	.tabs-section .picture {
 		float:left;
-		width:360px;
+		width:340px;
 	}
 	.tabs-section .options {
 		float:left;
-		width:300px;
+		width:320px;
 		text-align: left;
 	}
     .tabs-section .discription ul.bullet-squre {
@@ -89,4 +89,7 @@
 	.estimate-page .right-side{
 		float:left;
 	}
+    .main-form-section .six-min {
+	    display: block;
+    }
 }

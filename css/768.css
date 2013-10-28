@@ -1,7 +1,7 @@
 /* add your custom styles here */
 
 .air-balls .inn {
-	padding:50px 50px 50px 60px;
+	padding:63px 50px 50px 60px;
 	background: url(../img/balls.jpg) no-repeat 100% 0;
 }
 .air-balls h2 {
@@ -14,12 +14,12 @@
 }
 .main-form-section {
 	width:480px;
-	margin-right:20px;
+	margin-right:16px;
 	float:left;
 }
 .main-form-section .form-field input,
 .main-form-section .form-field textarea {
-	width:80%;
+	width:78%;
 }
 .six-min {
 	display: block;
@@ -30,14 +30,14 @@
 }
 .main-form-section-submit {
 	text-align:left;
-	margin-left:90px;
-	margin-top:0;
+	margin-left:100px;
+	margin-top:15px;
 }
 .save-money .inn {
-	padding:110px 20px 50px;
+	padding:120px 20px 50px;
 }
 .responsive-section .inn {
-	padding: 100px 20px 80px 450px;
+	padding: 100px 20px 70px 520px;
 }
 .cro-section .inn {
 	padding: 90px 20px 40px;
@@ -52,7 +52,7 @@
 	padding:60px 20px 30px;
 }
 .main .section-main-content .inn {
-	 padding: 80px 20px 80px 80px;
+	 padding: 60px 80px 80px 80px;
 }
 .footer {
 	padding:60px 20px;
@@ -70,4 +70,7 @@
 .contact-form {
 	width: 750px;
 	margin:0 auto 40px;
+}
+.free-calculate .btn-orange:before {
+	display: block;
 }
