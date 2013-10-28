@@ -916,12 +916,14 @@ ul.bullet-squre li:before {
 .clients-list {
 	margin:0 -18px 40px;
 }
-.clients-list a {
+.clients-list a,
+.clients-list span{
 	display: block;
 	float:left;
 	margin:0 14px;
 }
-.clients-list a img {
+.clients-list a img,
+.clients-list span img{
 	display: block;
 }
 
@@ -1243,8 +1245,10 @@ ul.bullet-squre li:before {
  Inner page
  ============================*/
 .top-large-picture {
-	max-width:1280px;
+	/*max-width:1280px;*/
 	margin:0 auto 0px;
+	max-height: 300px;
+	overflow:hidden;
 	/*border-bottom:5px solid #0092d8;*/
 }
 .top-large-picture img {
