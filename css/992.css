@@ -72,4 +72,21 @@
     .top-large-picture {
 	    margin-bottom:20px;
     }
+	.contact-header:after {
+		background: url("../img/ball-contact.jpg") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);
+		bottom: -300px;
+		content: "";
+		height: 319px;
+		position: absolute;
+		right: -170px;
+		width: 270px;
+		z-index: 1;
+	}
+	.estimate-page .inn {
+		width:940px;
+	}
+	.estimate-page .left-side,
+	.estimate-page .right-side{
+		float:left;
+	}
 }

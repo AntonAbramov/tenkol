@@ -1105,7 +1105,7 @@ ul.bullet-squre li:before {
 	font-size:18px;
 	text-shadow:0 1px 1px #c33e0d;
 	padding:0 20px;
-	line-height:50px;
+	line-height:46px;
 	height:50px;
 	display: inline-block;
 	text-decoration: none;
@@ -1212,7 +1212,8 @@ ul.bullet-squre li:before {
 	min-width: 180px;
 }
 .free-calculate .btn-orange:before,
-.calculate-price .btn-orange:before{
+.calculate-price .btn-orange:before,
+.estimate-page .right-side .btn-orange:before{
 	content:"";
 	height:31px;
 	width:146px;
@@ -1450,9 +1451,19 @@ ul.bullet-squre li:before {
 	line-height: 14px;
 	width: 80px;
 }
+.contact-bg{
+	background: url(../img/contact-bg.jpg) no-repeat 50% 0;
+	padding:55px 0 30px;
+	margin:0 0 20px;
+	position: relative;
+	z-index: 2;
+}
 .contact-header {
 	text-align: center;
+	margin:0 0 30px;
+	position: relative;
 }
+
 .contact-header h1 {
 	margin-bottom: 5px;
 	color:#4c4b4b;
@@ -1499,4 +1510,201 @@ ul.bullet-squre li:before {
 }
 .contact-form {
 	color:#000;
+}
+.contact-persons {
+	margin:0 0 50px;
+}
+.contact-persons .person {
+	/*float:left;*/
+	margin:0 auto 10px;
+	width:320px;
+	padding:0 20px;
+}
+.contact-persons .person:after {
+	content:"";
+	display: table;
+	clear:both;
+}
+.contact-persons .photo {
+	border-radius: 100px;
+	overflow:hidden;
+	display:block;
+	float:left;
+	margin-right:20px;
+}
+.contact-persons .photo img {
+	display:block;
+}
+.contact-persons .info {
+	overflow:hidden;
+	font-size:14px;
+	margin-top:10px;
+}
+.contact-persons .name {
+	font-weight: bold;
+	color:#000;
+}
+.contact-persons .position {
+	color:#0092d8;
+	font-style:italic;
+	margin-bottom:10px;
+}
+.contact-persons .mail,
+.contact-persons .mail a,
+.contact-persons .tel,
+.contact-persons .tel a {
+	color:#8a9296;
+	text-decoration: none;
+}
+.estimate-header {
+	text-align:center;
+	max-width: 940px;
+	margin:0 auto 40px;
+}
+.estimate-header h1{
+	color: #4C4B4B;
+	margin-bottom: 5px;
+}
+.estimate-header p {
+	color: #7E7E7E;
+	font-size: 22px;
+	line-height: 26px;
+}
+.estimate-page {
+	padding:50px 0;
+	background: #f2f5f7;
+	border-bottom:5px solid #d7d7d7;
+	margin-bottom:40px;
+}
+.estimate-page .inn {
+	margin:0 auto;
+}
+.estimate-page .left-side {
+	width:470px;
+	margin:0 auto;
+}
+.estimate-page .right-side {
+	width:470px;
+	padding-left:90px;
+	margin:0 auto;
+}
+.estimate-page .blue {
+	color:#013255;
+}
+.estimate-page .label-form-field {
+	display:inline-block;
+	vertical-align: middle;
+	width:150px;
+}
+.estimate-page input[type="text"],
+.estimate-page input[type="email"],
+.estimate-page input[type="tel"],
+.estimate-page input[type="checkbox"],
+.estimate-page select {
+	height:35px;
+	border:1px solid #c7c7c7;
+	background: #fff;
+	color:#000;
+	font-size:13px;
+	padding:8px 8px 8px 12px;
+	width:100%;
+}
+.estimate-page input[type="text"]:focus,
+.estimate-page input[type="email"]:focus,
+.estimate-page input[type="tel"]:focus,
+.estimate-page select:focus,
+.estimate-textarea:focus{
+	border-color:#77c2d6;
+	background: #e9f4f9;
+}
+.estimate-page ul li {
+	margin:0 0 15px;
+}
+.estimate-page ul.input-list label {
+	width:150px;
+	display:block;
+	float:left;
+	padding-top:10px;
+}
+.estimate-page .control-holder {
+	overflow:hidden;
+}
+.estimate-page .control-holder select {
+	width:100%;
+}
+.estimate-page .checkbox-list {
+	border-bottom: 1px solid #bdbdbd;
+	margin:0 0 40px;
+}
+.estimate-page .checkbox-list:last-child {
+	border-bottom: none;
+}
+.estimate-page .checkbox-list li {
+	padding-left:30px;
+	margin-bottom:10px;
+}
+.estimate-page .checkbox-list li label {
+	display:block;
+	position: relative;
+	padding-right:45px;
+	width:185px;
+	float:none;
+	line-height:14px;
+	color:#969696;
+	font-style:italic;
+	cursor: pointer;
+}
+.estimate-page .checkbox-list li label input {
+	position: absolute;
+	right:0;
+	top:3px;
+	height:auto;
+
+}
+.estimate-page .checkbox-list li:first-child {
+	margin-bottom:15px;
+}
+.estimate-page .checkbox-list li:first-child label {
+	font-size:18px;
+	color:#000;
+	font-style:normal;
+}
+.estimate-page .checkbox-list li:first-child i {
+	left: -27px;
+	position: absolute;
+	top: 0px;
+}
+.estimate-page .checkbox-list li:first-child i.icons-design {
+	 top:2px;
+ }
+.estimate-page .checkbox-list li:first-child i.icons-vertska {
+	top:3px;
+}
+.estimate-page .checkbox-list li:first-child i.icons-search {
+	top:2px;
+}
+.estimate-page .checkbox-list li label input {
+	height: 20px;
+	padding: 0 3px;
+	position: absolute;
+	right: 0;
+	top: -1px;
+	width: 30px;
+	text-align: center;
+}
+.estimate-page .checkbox-list li label input[type="text"] {
+	top:1px;
+}
+.estimate-page .about-projet {
+	margin:0 0 30px;
+}
+.estimate-textarea {
+	border:1px solid #c7c7c7;
+	background: #fff;
+	padding:10px;
+	width:100%;
+
+}
+.estimate-page .right-side .btn-orange {
+	position: relative;
 }

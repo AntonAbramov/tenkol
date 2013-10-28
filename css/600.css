@@ -37,3 +37,8 @@
 .city-map-section .city-map-container:first-child {
 	width: 350px;
 }
+.contact-persons .person {
+	float:left;
+	margin:0 0 20px;
+}
+
