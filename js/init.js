@@ -5,23 +5,39 @@
   $ = jQuery;
 
   $(document).ready(function() {
+    var changeTab, intervalFunc, x;
     if ($(".tabs").length) {
-      $(".tabs").find('a').on("click", function(event) {
+      x = 1;
+      changeTab = function() {
+        return $(".tabs").find('span').eq(x).click();
+      };
+      intervalFunc = setInterval(changeTab, 3000);
+      $(".tabs").find('span').on("click", function(event) {
         var idx;
+        event.preventDefault();
+        event.stopPropagation();
         if ($(this).hasClass('active')) {
           return false;
         } else {
           idx = $(this).index();
-          $(this).parents(".tabs-section").find(".tabs a").removeClass("active");
+          $(this).parents(".tabs-section").find(".tabs span").removeClass("active");
           $(this).addClass('active').focus();
-          return $(this).parents(".tabs-section").find(".tab-body").removeClass('opened').eq(idx).addClass('opened');
+          $(this).parents(".tabs-section").find(".tab-body").removeClass('opened').eq(idx).addClass('opened');
         }
+        idx = $(this).index() + 1;
+        if (idx === $(".tabs").find('span').length) {
+          x = 0;
+        } else {
+          x = idx;
+        }
+        clearInterval(intervalFunc);
+        return intervalFunc = setInterval(changeTab, 5000);
       });
     }
   });
 
   jQuery(window).load(function() {
-    $(".tabs").find('a').eq(0).click();
+    $(".tabs").find('span').eq(0).click();
   });
 
 }).call(this);

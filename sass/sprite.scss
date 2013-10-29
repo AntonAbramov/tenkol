@@ -17,7 +17,7 @@ ul.bullet-squre li:before {
 ul.bullet-squre li.active:before {
 	@include icons-sprite(bullet-squre-green);
 }
-.tabs-section .tabs a.active:before {
+.tabs-section .tabs span.active:before {
 	@include icons-sprite(corner-top);
 }
 .section-main-content .inn:before {

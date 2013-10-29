@@ -1,7 +1,7 @@
 /* line 210, icons/*.png */
 .icons-sprite, .icons-arrow-to-left, .icons-arrow-to-right, .icons-bullet-blue, .icons-bullet-gray, .icons-bullet-squre-green, .icons-bullet-squre, .icons-coding, .icons-corner-top, .icons-design, .icons-fb, .icons-footer-logo, .icons-learn-more, .icons-lines, .icons-logo, .icons-qr, .icons-search, .icons-shadow-left, .icons-shadow-right, .icons-tw, .icons-vertska, .icons-vk, .header .main-nav a:hover .icon,
 .header .main-nav a:focus .icon,
-.header .main-nav a.active .icon, .header .tel:before, ul.bullet-squre li:before, ul.bullet-squre li.active:before, .tabs-section .tabs a.active:before, .section-main-content .inn:before, .section-main-content .inn:after {
+.header .main-nav a.active .icon, .header .tel:before, ul.bullet-squre li:before, ul.bullet-squre li.active:before, .tabs-section .tabs span.active:before, .section-main-content .inn:before, .section-main-content .inn:after {
   background: url('../img/icons.png') no-repeat;
 }
 
@@ -179,7 +179,7 @@ ul.bullet-squre li.active:before {
 }
 
 /* line 20, ../sass/sprite.scss */
-.tabs-section .tabs a.active:before {
+.tabs-section .tabs span.active:before {
   background-position: 0 -664px;
 }
 
