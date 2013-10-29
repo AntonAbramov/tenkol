@@ -13,8 +13,13 @@ $(document).ready(function() {
 	$(".tabs").find('a').on('click', function(ev){
 		ev.preventDefault();
 		var idx = $(this).index();
+		if (idx == $(".tabs").find('a').length){
+			idx = 0;
+		}
 		clearInterval(intervalFunc);
-		console.log('stoped');
+		x = idx;
+		console.log(x);
+		intervalFunc = setInterval(al, 3000);
 	});
 
 });
