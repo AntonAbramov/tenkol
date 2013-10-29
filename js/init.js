@@ -13,7 +13,7 @@
         } else {
           idx = $(this).index();
           $(this).parents(".tabs-section").find(".tabs a").removeClass("active");
-          $(this).addClass('active');
+          $(this).addClass('active').focus();
           return $(this).parents(".tabs-section").find(".tab-body").removeClass('opened').eq(idx).addClass('opened');
         }
       });

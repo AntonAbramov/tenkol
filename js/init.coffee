@@ -9,9 +9,8 @@ $(document).ready ->
 				return false
 			else
 				idx = $(@).index()
-
 				$(@).parents(".tabs-section").find(".tabs a").removeClass("active")
-				$(@).addClass('active')
+				$(@).addClass('active').focus()
 				$(@).parents(".tabs-section").find(".tab-body").removeClass('opened').eq(idx).addClass('opened')
 
 
