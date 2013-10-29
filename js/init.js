@@ -8,7 +8,6 @@
     if ($(".tabs").length) {
       $(".tabs").find('a').on("click", function(event) {
         var idx;
-        event.preventDefault();
         if ($(this).hasClass('active')) {
           return false;
         } else {

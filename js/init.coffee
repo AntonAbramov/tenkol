@@ -4,7 +4,7 @@ $(document).ready ->
 
 	if $(".tabs").length
 		$(".tabs").find('a').on "click", (event) ->
-			event.preventDefault()
+			#event.preventDefault()
 			if $(@).hasClass('active')
 				return false
 			else
