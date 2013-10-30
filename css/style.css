@@ -1751,6 +1751,9 @@ a.btn-orange {
 	border-bottom:1px solid #c6c6c6;
 	margin-bottom:20px;
 }
+.portfolio-header h1 + p {
+	margin:0 0 40px;
+}
 .portfolio-header p {
 	font-size:18px;
 	color:#7e7e7e;
@@ -1758,7 +1761,7 @@ a.btn-orange {
 }
 .big-preview,
 .small-preview{
-	margin:0 0 30px;
+	/*margin:0 0 30px;*/
 }
 .big-preview:after,
 .small-preview:after{
