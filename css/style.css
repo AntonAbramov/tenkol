@@ -678,7 +678,7 @@ textarea  {
  ============================*/
 .tabs-section {
 	position: relative;
-	padding-bottom:360px;
+	padding-bottom:50px;
 	margin:0 0 40px;
 }
 .tabs-section .tabs {
@@ -686,28 +686,27 @@ textarea  {
 	bottom:0;
 	left:0;
 	z-index: 2;
+	text-align:center;
+	width:100%;
 }
 .main .tabs-section .tabs span {
-	width:140px;
-	height:100%;
-	height:78px;
+	text-indent: -999em;
 	cursor: pointer;
-}
-.main .tabs-section .tabs span:first-child {
-	width:300px;
+	text-align:left;
 }
 .tabs-section .tabs span{
-	padding:10px 15px;
 	position: relative;
-	display:block;
+	display: inline-block;
 	font-size:14px;
 	line-height: 18px;
-	float:left;
+
 	margin:0 0 15px 15px;
 	background: #eeeeee;
 	color:#000;
-	border-radius:10px;
+	border-radius:30px;
 	text-decoration: none;
+	min-height: 10px;
+	min-width: 17px;
 }
 .tabs-section .tabs span.active,
 .tabs-section .tabs span:hover,
@@ -718,14 +717,7 @@ textarea  {
 .tabs-section .tabs span.active {
 	cursor: default;
 }
-.tabs-section .tabs span.active:before {
-	content:"";
-	width:16px;
-	height:32px;
-	position: absolute;
-	top:-23px;
-	left:0;
-}
+
 .tabs-section .tab-body {
 	display: none;
 }
@@ -748,6 +740,7 @@ textarea  {
 }
 .tabs-section .picture {
 	margin:0 auto 20px;
+	display:none;
 }
 .tabs-section .picture img{
 	display:block;
@@ -848,8 +841,8 @@ ul.bullet-squre li:before {
 	margin:20px;
 }
 .sosials li {
-	float:left;
 	margin-left:7px;
+	display: inline-block;
 }
 .sosials li:first-child {
 	margin-left:0;
@@ -963,7 +956,7 @@ ul.bullet-squre li:before {
 	display:block;
 }
 .main-form-section .form-field {
-	margin:0 0 14px;
+	margin:0 0 4px;
 }
 .air-balls .main-form-section .form-field label {
 	color:#fff;
@@ -974,14 +967,18 @@ ul.bullet-squre li:before {
 	color:#000;
 	padding:7px 0;
 	font-size:13px;
+	line-height:15px;
+}
+.main-form-section .form-field textarea {
+	max-height:50px;
 }
 .main-form-section .form-field input,
 .main-form-section .form-field textarea {
 	width:100%;
 	background: #fff;
 	border:1px solid #c7c7c7;
-	padding:9px 10px;
-	font-size:13px;
+	padding:2px 5px;
+	font-size:11px;
 	color:#acacac;
 }
 .air-balls .main-form-section .form-field input,
@@ -1192,6 +1189,9 @@ a.btn-orange {
 	right:-155px;
 	top:10px;
 	z-index: 2;
+}
+.calculate-price .btn-orange:before {
+	display:none;
 }
 .estimate-page .right-side p {
 	line-height:24px;
@@ -1783,9 +1783,6 @@ a.btn-orange {
 	padding:10px;
 
 }
-.small-preview .screen-shot {
-	height:200px;
-}
 .screen-shot {
 	border:2px solid #a7a7a7;
 	margin:0 0 20px;
@@ -1839,4 +1836,15 @@ a.btn-orange {
 .icons-qr {
 	margin-top:7px;
 }
-
+@media only screen and (min-width: 1400px) {
+	.contact-header:after {
+		background: url("../img/ball-contact.jpg") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);
+		bottom: -300px;
+		content: "";
+		height: 319px;
+		position: absolute;
+		right: -170px;
+		width: 270px;
+		z-index: 1;
+	}
+}

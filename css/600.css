@@ -118,7 +118,38 @@
 	width:50%;
 	float:left;
 }
-.small-preview .preview {
-	width:33.3333%;
+ .calculate-price .btn-orange:before {
+	display:block;
+}
+.tabs-section .tabs {
+	width:auto;
+}
+.main .tabs-section .tabs span {
+	width:140px;
+	height:100%;
+	height:78px;
+	text-indent: 0;
+}
+.main .tabs-section .tabs span:first-child {
+	width:300px;
+}
+.tabs-section .tabs span{
+	padding:10px 15px;
+	border-radius:10px;
 	float:left;
+	display:block;
+}
+.tabs-section .tabs span.active:before {
+	content:"";
+	width:16px;
+	height:32px;
+	position: absolute;
+	top:-23px;
+	left:0;
+}
+.tabs-section .picture {
+	display:block;
+}
+.tabs-section {
+	padding-bottom:360px;
 }

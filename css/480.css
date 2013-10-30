@@ -3,9 +3,6 @@
 .tabs-section .tab-body {
 	padding:0 20px;
 }
-.tabs-section {
-	padding-bottom:220px;
-}
 .sosials {
 	margin:20px 0;
 }
@@ -16,4 +13,8 @@
 }
 .team .photo {
 	margin-left:0px;
+}
+.small-preview .preview {
+	width:33.3333%;
+	float:left;
 }

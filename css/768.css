@@ -77,3 +77,22 @@
 .tags {
 	margin:0 -7px 30px;
 }
+.main-form-section-discription {
+	text-align:left;
+	float:left;
+	margin-left:0;
+}
+.main-form-section .form-field {
+	margin: 0 0 14px;
+}
+.main-form-section .form-field input,
+.main-form-section .form-field textarea {
+	font-size:13px;
+	padding:8px 10px;
+}
+.main-form-section .form-field label {
+	line-height:18px;
+}
+.main-form-section .form-field textarea {
+	max-height: 200px;
+}
