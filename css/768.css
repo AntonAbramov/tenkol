@@ -74,3 +74,6 @@
 .free-calculate .btn-orange:before {
 	display: block;
 }
+.tags {
+	margin:0 -7px 30px;
+}
