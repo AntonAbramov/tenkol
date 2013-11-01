@@ -26,9 +26,42 @@ $(document).ready ->
 			clearInterval(intervalFunc)
 			intervalFunc = setInterval(changeTab, 5000)
 
+
+
 	return #end document ready
 
 jQuery(window).load ->
 	$(".tabs").find('span').eq(0).click()
 
+
+	stickyMenu()
+
+
 	return #end Window load
+
+$(window).scroll =>
+
+	stickyMenu()
+
+	return
+
+
+stickyMenu = ->
+	if $(window).width() > 800
+		positionWrapper = $('.wrapper ').offset().top
+		positionFooter = $(".footer").offset().top
+		scrollTopPosition = 0
+		winHeight = $(window).height()
+
+		if (navigator.appCodeName == "Netscape")
+			scrollTopPosition = $('body').scrollTop()
+		else
+			scrollTopPosition = $('html').scrollTop()
+
+		if (scrollTopPosition+winHeight-positionFooter > 0)
+			$(".left-column").removeClass("fixed")
+		else if (positionWrapper-scrollTopPosition <= 0)
+			$(".left-column").addClass("fixed")
+		else
+			$(".left-column").removeClass("fixed")
+	else
