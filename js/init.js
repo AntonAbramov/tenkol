@@ -12,7 +12,7 @@
       changeTab = function() {
         return $(".tabs").find('span').eq(x).click();
       };
-      intervalFunc = setInterval(changeTab, 500000);
+      intervalFunc = setInterval(changeTab, 6000);
       $(".tabs").find('span').on("click", function(event) {
         var idx;
         event.preventDefault();
@@ -32,7 +32,7 @@
           x = idx;
         }
         clearInterval(intervalFunc);
-        return intervalFunc = setInterval(changeTab, 500000);
+        return intervalFunc = setInterval(changeTab, 6000);
       });
     }
   });

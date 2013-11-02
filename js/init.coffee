@@ -6,7 +6,7 @@ $(document).ready ->
 		x = 1;
 		changeTab = ->
 			$(".tabs").find('span').eq(x).click()
-		intervalFunc = setInterval(changeTab, 500000)
+		intervalFunc = setInterval(changeTab, 6000)
 		$(".tabs").find('span').on "click", (event) ->
 			event.preventDefault()
 			event.stopPropagation()
@@ -24,7 +24,7 @@ $(document).ready ->
 			else
 				x = idx;
 			clearInterval(intervalFunc)
-			intervalFunc = setInterval(changeTab, 500000)
+			intervalFunc = setInterval(changeTab, 6000)
 
 
 	return #end document ready
