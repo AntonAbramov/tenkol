@@ -6,7 +6,7 @@ $(document).ready ->
 		x = 1;
 		changeTab = ->
 			$(".tabs").find('span').eq(x).click()
-		intervalFunc = setInterval(changeTab, 3000)
+		intervalFunc = setInterval(changeTab, 500000)
 		$(".tabs").find('span').on "click", (event) ->
 			event.preventDefault()
 			event.stopPropagation()
@@ -24,18 +24,25 @@ $(document).ready ->
 			else
 				x = idx;
 			clearInterval(intervalFunc)
-			intervalFunc = setInterval(changeTab, 5000)
+			intervalFunc = setInterval(changeTab, 500000)
 
-
+	$(".tab-body").on "touchend", ->
+		alert 'tuch'
 
 	return #end document ready
 
 jQuery(window).load ->
 	$(".tabs").find('span').eq(0).click()
 
-
+	mainNav()
 	stickyMenu()
 
+	$("body").on "click", (event)->
+		if $(event.target).hasClass("link")
+			return false;
+		else
+			if $(".mobile").find("section").hasClass("opened")
+				$(".mobile").find("section").removeClass("opened").find("nav").slideUp()
 
 	return #end Window load
 
@@ -45,6 +52,9 @@ $(window).scroll =>
 
 	return
 
+$(window).resize =>
+	if $(window).width() > 992
+		$(".mobile").show()
 
 stickyMenu = ->
 	if $(window).width() > 800
@@ -64,4 +74,28 @@ stickyMenu = ->
 			$(".left-column").addClass("fixed")
 		else
 			$(".left-column").removeClass("fixed")
-	else
+
+
+
+
+mainNav = ->
+
+	$(".main-nav .mobile > section").find("a").on "click", (ev) ->
+		ev.preventDefault()
+		if $(@).parents("section").hasClass("opened")
+			$(@).parents("section").removeClass("opened").find("nav").slideUp()
+		else if $(".main-nav > section").hasClass("opened")
+			$(".main-nav > section.opened").removeClass("opened").find("nav").slideUp()
+			$(@).parents("section").addClass("opened").find("nav").slideDown()
+		else
+			$(@).parents("section").addClass("opened").find("nav").slideDown()
+
+	$(".header-mobile").on "click", ->
+		$(".mobile").slideToggle(->
+			$(".mobile").find("section").removeClass("opened").find("nav").slideUp()
+		)
+
+
+
+
+		return

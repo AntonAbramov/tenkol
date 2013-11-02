@@ -3,9 +3,7 @@
 @import "icons/*.png";
 @include all-icons-sprites(true);
 
-.header .main-nav a:hover .icon,
-.header .main-nav a:focus .icon,
-.header .main-nav a.active .icon{
+.header .main-nav .opened a .icon{
 	@include icons-sprite(bullet-blue);
 }
 .header .tel:before {

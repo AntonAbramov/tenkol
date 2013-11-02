@@ -1,82 +1,117 @@
-@media only screen and (min-width: 992px) {
-	.wrapper {
-		width:960px;
-		padding: 0;
-	}
-	.header {
-		width:960px;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top:35px;
-		padding:40px 0 10px;
-	}
-	.footer .inn {
-		margin:0 auto;
-		width:960px;
-		padding:0 80px;
-	}
-	.main .wrapper .inn {
-		width:960px;
-	}
-	.clients-blcok {
-		padding:0;
-	}
-    .section-main-content .inn:before {
-		width:29px;
-		height:96px;
-		content:"";
-		position: absolute;
-		bottom:0;
-		left:-29px;
+.wrapper {
+	width: 960px;
+	padding: 0;
+}
 
-	}
-	.section-main-content .inn:after {
-		width:29px;
-		height:95px;
-		content:"";
-		position: absolute;
-		bottom:0;
-		right:-29px;
-	}
-	.tabs-section {
-		padding-bottom:115px;
-	}
-    .tabs-section .tabs {
-	    margin:0 -20px;
-    }
-    .tabs-section .tab-body {
-	    padding:0;
-    }
-    .tabs-section .discription {
-		width:300px;
-		float:left;
-	    text-align: left;
-	}
-	.tabs-section .picture {
-		float:left;
-		width:340px;
-	}
-	.tabs-section .options {
-		float:left;
-		width:320px;
-		text-align: left;
-	}
-    .tabs-section .discription ul.bullet-squre {
-		margin:0 0 20px 20px;
-	}
+.header {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 35px;
+	padding: 40px 0 10px;
+}
 
-    .top-large-picture {
-	    /*margin-bottom:50px;*/
-    }
+.footer .inn {
+	margin: 0 auto;
+	width: 960px;
+	padding: 0 80px;
+}
 
-	.estimate-page .inn {
-		width:940px;
-	}
-	.estimate-page .left-side,
-	.estimate-page .right-side{
-		float:left;
-	}
-    .main-form-section .six-min {
-	    display: block;
-    }
+.main .wrapper .inn {
+	width: 960px;
+}
+
+.clients-blcok {
+	padding: 0;
+}
+
+.section-main-content .inn:before {
+	width: 29px;
+	height: 96px;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: -29px;
+
+}
+
+.section-main-content .inn:after {
+	width: 29px;
+	height: 95px;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: -29px;
+}
+
+.tabs-section {
+	padding-bottom: 115px;
+}
+
+.tabs-section .tabs {
+	margin: 0 -20px;
+}
+
+.tabs-section .tab-body {
+	padding: 0;
+}
+
+.tabs-section .discription {
+	width: 300px;
+	float: left;
+	text-align: left;
+}
+
+.tabs-section .picture {
+	float: left;
+	width: 340px;
+}
+
+.tabs-section .options {
+	float: left;
+	width: 320px;
+	text-align: left;
+}
+
+.tabs-section .discription ul.bullet-squre {
+	margin: 0 0 20px 20px;
+}
+
+.top-large-picture {
+	/*margin-bottom:50px;*/
+}
+
+.estimate-page .inn {
+	width: 940px;
+}
+
+.estimate-page .left-side,
+.estimate-page .right-side {
+	float: left;
+}
+
+.main-form-section .six-min {
+	display: block;
+}
+.header .main-nav {
+	overflow: visible;
+	padding-bottom: 0;
+	float:left;
+}
+
+.header .main-nav .mobile > a,
+.header .main-nav .mobile section > a{
+	margin-left:20px;
+	float:left;
+	padding:20px 0;
+}
+.header .main-nav .mobile > section {
+	float:left;
+	margin-left:20px;
+}
+.header-mobile {
+	display: none;
+}
+.header .main-nav .mobile{
+	display: block;
 }

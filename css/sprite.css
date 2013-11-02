@@ -1,7 +1,5 @@
 /* line 210, icons/*.png */
-.icons-sprite, .icons-arrow-to-left, .icons-arrow-to-right, .icons-bullet-blue, .icons-bullet-gray, .icons-bullet-squre-green, .icons-bullet-squre, .icons-coding, .icons-corner-top, .icons-design, .icons-fb, .icons-footer-logo, .icons-learn-more, .icons-lines, .icons-logo, .icons-qr, .icons-search, .icons-shadow-left, .icons-shadow-right, .icons-tw, .icons-vertska, .icons-vk, .header .main-nav a:hover .icon,
-.header .main-nav a:focus .icon,
-.header .main-nav a.active .icon, .header .tel:before, ul.bullet-squre li:before, ul.bullet-squre li.active:before, .tabs-section .tabs span.active:before, .section-main-content .inn:before, .section-main-content .inn:after {
+.icons-sprite, .icons-arrow-to-left, .icons-arrow-to-right, .icons-bullet-blue, .icons-bullet-gray, .icons-bullet-squre-green, .icons-bullet-squre, .icons-coding, .icons-corner-top, .icons-design, .icons-fb, .icons-footer-logo, .icons-learn-more, .icons-lines, .icons-logo, .icons-qr, .icons-search, .icons-shadow-left, .icons-shadow-right, .icons-tw, .icons-vertska, .icons-vk, .header .main-nav .opened a .icon, .header .tel:before, ul.bullet-squre li:before, ul.bullet-squre li.active:before, .tabs-section .tabs span.active:before, .section-main-content .inn:before, .section-main-content .inn:after {
   background: url('../img/icons.png') no-repeat;
 }
 
@@ -156,39 +154,37 @@
   width: 22px;
 }
 
-/* line 8, ../sass/sprite.scss */
-.header .main-nav a:hover .icon,
-.header .main-nav a:focus .icon,
-.header .main-nav a.active .icon {
+/* line 6, ../sass/sprite.scss */
+.header .main-nav .opened a .icon {
   background-position: 0 -705px;
 }
 
-/* line 11, ../sass/sprite.scss */
+/* line 9, ../sass/sprite.scss */
 .header .tel:before {
   background-position: 0 -208px;
 }
 
-/* line 14, ../sass/sprite.scss */
+/* line 12, ../sass/sprite.scss */
 ul.bullet-squre li:before {
   background-position: 0 -604px;
 }
 
-/* line 17, ../sass/sprite.scss */
+/* line 15, ../sass/sprite.scss */
 ul.bullet-squre li.active:before {
   background-position: 0 -588px;
 }
 
-/* line 20, ../sass/sprite.scss */
+/* line 18, ../sass/sprite.scss */
 .tabs-section .tabs span.active:before {
   background-position: 0 -664px;
 }
 
-/* line 23, ../sass/sprite.scss */
+/* line 21, ../sass/sprite.scss */
 .section-main-content .inn:before {
   background-position: 0 -339px;
 }
 
-/* line 26, ../sass/sprite.scss */
+/* line 24, ../sass/sprite.scss */
 .section-main-content .inn:after {
   background-position: 0 -435px;
 }

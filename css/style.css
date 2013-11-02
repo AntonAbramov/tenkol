@@ -235,6 +235,8 @@ ol {
 }
 .mb35 {
 	margin-bottom: 35px;
+	overflow: hidden;
+	height: 38px;
 }
 .mb40 {
 	margin-bottom: 40px;
@@ -469,50 +471,88 @@ textarea  {
 	text-align:center;
 }
 .header .main-nav {
+	padding-bottom: 10px;
+}
+.header-mobile {
+	font-size: 14px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 50px;
+	position: relative;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: center;
+
+}
+.header-mobile button {
+	position: absolute;
+	right:15px;
+	top:14px;
+}
+.header .main-nav .mobile {
 	/*padding:10px 0;*/
 	text-align: center;
 	position: relative;
 	z-index: 10;
+	display: none;
 }
-.header .main-nav > a,
-.header .main-nav section > a {
+.navbar-toggle {
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 4px 4px 4px 4px;
+	height: 20px;
+}
+.navbar-toggle .icon-bar {
+    background-color: #0092d8;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+.navbar-toggle .icon-bar {
+    border-radius: 1px 1px 1px 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+.header .main-nav .mobile > a,
+.header .main-nav .mobile section > a {
 	padding:10px 0;
 }
-.header .main-nav > section {
+.header .main-nav .mobile > section {
 	position: relative;
 
 }
-.header .main-nav > section:first-child {
+.header .main-nav .mobile > section:first-child {
 	margin-left:0;
 }
-.header .main-nav a {
+.header .main-nav .mobile a {
 	display:block;
 	color:#4a4a4a;
 	text-decoration: none;
 	position: relative;
 	font-size:14px;
 }
-.header .main-nav a:last-child i {
+.header .main-nav .mobile a:last-child i {
 	display: none;
 }
-.header .main-nav section > a:first-child {
+.header .main-nav .mobile section > a:first-child {
 	margin-left:0;
 }
-.header .main-nav a:hover,
-.header .main-nav a:focus,
-.header .main-nav a.active{
+.header .main-nav .mobile a:hover,
+.header .main-nav .mobile a:focus,
+.header .main-nav .mobile a.active{
 	color:#000;
 }
-.header .main-nav > a.active {
+.header .main-nav .mobile > a.active {
 	cursor: default;
 }
-.header .main-nav a .icon {
+.header .main-nav .mobile a .icon {
 	position: relative;
-	top:4px;
+	top:2px;
 	margin-left:5px;
 }
 
-.header .main-nav > section nav {
+.header .main-nav .mobile > section nav {
 	position: absolute;
 	top:57px;
 	left:50%;
@@ -523,13 +563,11 @@ textarea  {
 	display:none;
 	box-shadow:0 3px 5px rgba(0,0,0, .5);
 }
-.header .main-nav > section > a:hover + nav,
-.header .main-nav > section > a:focus + nav,
-.header .main-nav > section nav:hover {
-	display:block;
+.header .main-nav .mobile > section.opened nav {
+
 	z-index: 10;
 }
-.header .main-nav > section nav:before {
+.header .main-nav .mobile > section nav:before {
 	position: absolute;
 	top:-13px;
 	z-index: 1;
@@ -541,18 +579,18 @@ textarea  {
 	content:"";
 }
 
-.header .main-nav > section nav a {
+.header .main-nav .mobile > section nav a {
 	display: block;
 	height:40px;
 	line-height:40px;
 	padding:0 20px;
 	border-top:1px solid #b8b8b8;
 }
-.header .main-nav > section nav a:hover,
-.header .main-nav > section nav a:focus {
+.header .main-nav .mobile > section nav a:hover,
+.header .main-nav .mobile > section nav a:focus {
 	color:#0092d8;
 }
-.header .main-nav > section nav a:first-child {
+.header .main-nav .mobile > section nav a:first-child {
 	border-top:0 ;
 }
 .header .contacts {
@@ -678,12 +716,11 @@ textarea  {
  ============================*/
 .tabs-section {
 	position: relative;
-	padding-bottom:50px;
-	margin:0 0 40px;
+
 }
 .tabs-section .tabs {
 	position: absolute;
-	bottom:0;
+	bottom:317px;
 	left:0;
 	z-index: 2;
 	text-align:center;
@@ -693,12 +730,14 @@ textarea  {
 	text-indent: -999em;
 	cursor: pointer;
 	text-align:left;
+	font-size: 0;
+	width: 1px;
 }
 .tabs-section .tabs span{
 	position: relative;
 	display: inline-block;
 	font-size:14px;
-	line-height: 18px;
+	line-height: 16px;
 
 	margin:0 0 15px 15px;
 	background: #eeeeee;
@@ -748,7 +787,7 @@ textarea  {
 	margin:0 auto;
 }
 .tabs-section .options {
-	margin:0 auto;
+	margin:60px auto 0;
 	text-align:center;
 }
 
@@ -977,7 +1016,7 @@ ul.bullet-squre li:before {
 	width:100%;
 	background: #fff;
 	border:1px solid #c7c7c7;
-	padding:2px 5px;
+	padding:5px;
 	font-size:11px;
 	color:#acacac;
 }
@@ -1061,8 +1100,8 @@ ul.bullet-squre li:before {
 	font-size:18px;
 	text-shadow:0 1px 1px #c33e0d;
 	padding:0 20px;
-	line-height:50px;
-	height:55px;
+	line-height:40px;
+	height:40px;
 	display: inline-block;
 	text-decoration: none;
 	word-break: keep-all;
@@ -1111,7 +1150,7 @@ a.btn-orange {
 }
 .responsive-section .inn {
 	background: url("../img/mobiles.jpg") no-repeat scroll 14% 60% rgba(0, 0, 0, 0);
-	padding:20px 20px 190px;
+	padding:20px 20px 230px;
 }
 .responsive-section h2{
 	font-size:32px;
@@ -1130,7 +1169,6 @@ a.btn-orange {
 	background: #d6e8ea;
 }
 .cro-section .inn {
-	background: url(../img/progress.jpg) no-repeat 100% 100% ;
 	-moz-background-size:contain ;
 	-webkit-background-size:contain ;
 	-o-background-size:contain ;

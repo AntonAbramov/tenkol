@@ -10,24 +10,22 @@
 	margin-right:45px;
 	text-align: left;
 }
-.header .main-nav {
+.header-mobile {
+	text-align: left;
+}
+.header .main-nav .mobile {
 	float:left;
 	text-align: left;
 }
-.header .main-nav > section {
-	float:left;
-	margin-left:20px;
-}
-.header .main-nav > a,
-.header .main-nav section > a{
-	margin-left:20px;
-	float:left;
-	padding:20px 0;
-}
+
+
 .tabs-section .tabs span {
 	margin:0 0 20px 20px;
+	bottom:0;
 }
-
+.tabs-section .options {
+	margin:0 auto;
+}
 .cro-section .inn {
 	height:243px;
 }
@@ -121,14 +119,19 @@
  .calculate-price .btn-orange:before {
 	display:block;
 }
+ .tabs-section {
+	padding-bottom:240px;
+	margin:0 0 40px;
+}
 .tabs-section .tabs {
 	width:auto;
+	bottom:0;
 }
 .main .tabs-section .tabs span {
 	width:140px;
-	height:100%;
 	height:78px;
 	text-indent: 0;
+	font-size: 12px;
 }
 .main .tabs-section .tabs span:first-child {
 	width:300px;
@@ -138,6 +141,7 @@
 	border-radius:10px;
 	float:left;
 	display:block;
+	line-height: 18px;
 }
 .tabs-section .tabs span.active:before {
 	content:"";
@@ -150,6 +154,16 @@
 .tabs-section .picture {
 	display:block;
 }
-.tabs-section {
-	padding-bottom:360px;
+.mb35 {
+	overflow: visible;
+	height: auto;
+}
+.air-balls input[type="submit"],
+.btn-orange,
+.contact-form input[type="submit"]{
+	line-height: 50px;
+	height: 55px;
+}
+.cro-section .inn {
+	background: url(../img/progress.jpg) no-repeat 100% 100% ;
 }
