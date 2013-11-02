@@ -43,8 +43,6 @@ var slider = {
 		// Get the original touch position.
 		this.touchstartx = event.originalEvent.touches[0].pageX;
 
-		// The movement gets all janky if there's a transition on the elements.
-		$('.animate').removeClass('animate');
 	},
 
 	move: function (event) {
@@ -52,35 +50,21 @@ var slider = {
 		this.touchmovex = event.originalEvent.touches[0].pageX;
 		// Calculate distance to translate holder.
 		this.movex = this.index * this.slideWidth + (this.touchstartx - this.touchmovex);
-		// Defines the speed the images should move at.
-		var panx = 100 - this.movex / 6;
-		if (this.movex < 600) { // Makes the holder stop moving when there is no more content.
-			alert(1);
-			this.el.holder.css('transform', 'translate3d(-' + this.movex + 'px,0,0)');
-		}
-		if (panx < 100) { // Corrects an edge-case problem where the background image moves without the container moving.
-			alert(2);
-			this.el.imgSlide.css('transform', 'translate3d(-' + panx + 'px,0,0)');
-		}
 	},
 
 	end: function (event) {
 		// Calculate the distance swiped.
 		var absMove = Math.abs(this.index * this.slideWidth - this.movex);
-		// Calculate the index. All other calculations are based on the index.
-		if (absMove > this.slideWidth / 2 || this.longTouch === false) {
-			if (this.movex > this.index * this.slideWidth && this.index < 2) {
-				this.index++;
-			} else if (this.movex < this.index * this.slideWidth && this.index > 0) {
-				this.index--;
+		if(absMove > 150) {
+			if($(".tabs").find(".active").index() != 4) {
+				var idx = $(".tabs").find(".active").index()+1;
+				$(".tabs").find("span").eq(idx).click();
+			}
+			else {
+				$(".tabs").find("span").eq(0).click();
 			}
 		}
-		// Move and animate the elements.
-		this.el.holder.addClass('animate').css('transform', 'translate3d(-' + this.index * this.slideWidth + 'px,0,0)');
-		this.el.imgSlide.addClass('animate').css('transform', 'translate3d(-' + 100 - this.index * 50 + 'px,0,0)');
-
 	}
-
 };
 
 slider.init();

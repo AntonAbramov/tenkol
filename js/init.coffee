@@ -26,8 +26,6 @@ $(document).ready ->
 			clearInterval(intervalFunc)
 			intervalFunc = setInterval(changeTab, 500000)
 
-	$(".tab-body").on "touchend", ->
-		alert 'tuch'
 
 	return #end document ready
 

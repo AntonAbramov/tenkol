@@ -35,9 +35,6 @@
         return intervalFunc = setInterval(changeTab, 500000);
       });
     }
-    $(".tab-body").on("touchend", function() {
-      return alert('tuch');
-    });
   });
 
   jQuery(window).load(function() {
