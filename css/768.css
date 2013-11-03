@@ -1,5 +1,14 @@
 /* add your custom styles here */
-
+.left-column {
+	width:27.08333333333333%; /* 260 / 960 */
+	display:block;
+}
+.mobile-holder {
+	display: none;
+}
+.content-body {
+	padding-left: 0;
+}
 .air-balls .inn {
 	padding:63px 50px 50px 60px;
 	background: url(../img/balls.jpg) no-repeat 100% 0;
