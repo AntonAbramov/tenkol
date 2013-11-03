@@ -88,12 +88,12 @@
     $(".main-nav .mobile > section").find("a").on("click", function(ev) {
       ev.preventDefault();
       if ($(this).parents("section").hasClass("opened")) {
-        return $(this).parents("section").removeClass("opened").find("nav").slideUp();
+        return $(this).parents("section").removeClass("opened").find("nav").hide();
       } else if ($(".main-nav > section").hasClass("opened")) {
-        $(".main-nav > section.opened").removeClass("opened").find("nav").slideUp();
-        return $(this).parents("section").addClass("opened").find("nav").slideDown();
+        $(".main-nav > section.opened").removeClass("opened").find("nav").hide();
+        return $(this).parents("section").addClass("opened").find("nav").show();
       } else {
-        return $(this).parents("section").addClass("opened").find("nav").slideDown();
+        return $(this).parents("section").addClass("opened").find("nav").show();
       }
     });
     return $(".header-mobile").on("click", function() {

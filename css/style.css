@@ -482,7 +482,7 @@ textarea  {
 	text-transform: uppercase;
 	cursor: pointer;
 	text-align: center;
-
+	margin-bottom:7px;
 }
 .header-mobile button {
 	position: absolute;
@@ -553,11 +553,11 @@ textarea  {
 }
 
 .header .main-nav .mobile > section nav {
-	position: absolute;
+	position: static;
 	top:57px;
 	left:50%;
-	margin-left:-90px;
-	width: 180px;
+	margin-left:0px;
+	width: 100%;
 	border:1px solid #b8b8b8;
 	background: #fff;
 	display:none;
@@ -567,9 +567,10 @@ textarea  {
 
 	z-index: 10;
 }
+
 .header .main-nav .mobile > section nav:before {
 	position: absolute;
-	top:-13px;
+	top:26px;
 	z-index: 1;
 	left:50%;
 	margin-left:-10px;
@@ -589,6 +590,7 @@ textarea  {
 .header .main-nav .mobile > section nav a:hover,
 .header .main-nav .mobile > section nav a:focus {
 	color:#0092d8;
+	background: #f5f5f5;
 }
 .header .main-nav .mobile > section nav a:first-child {
 	border-top:0 ;

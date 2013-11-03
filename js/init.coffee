@@ -81,12 +81,12 @@ mainNav = ->
 	$(".main-nav .mobile > section").find("a").on "click", (ev) ->
 		ev.preventDefault()
 		if $(@).parents("section").hasClass("opened")
-			$(@).parents("section").removeClass("opened").find("nav").slideUp()
+			$(@).parents("section").removeClass("opened").find("nav").hide()
 		else if $(".main-nav > section").hasClass("opened")
-			$(".main-nav > section.opened").removeClass("opened").find("nav").slideUp()
-			$(@).parents("section").addClass("opened").find("nav").slideDown()
+			$(".main-nav > section.opened").removeClass("opened").find("nav").hide()
+			$(@).parents("section").addClass("opened").find("nav").show()
 		else
-			$(@).parents("section").addClass("opened").find("nav").slideDown()
+			$(@).parents("section").addClass("opened").find("nav").show()
 
 	$(".header-mobile").on "click", ->
 		$(".mobile").slideToggle(->

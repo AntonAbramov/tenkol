@@ -117,7 +117,22 @@
 }
 .header .main-nav .mobile{
 	display: block;
+	float:left;
+	text-align: left;
 }
 .estimate-page .inn  {
 	padding:0;
+}
+.header .main-nav .mobile > section nav {
+	position: absolute;
+	margin-left:-90px;
+	width: 180px;
+}
+.header .main-nav .mobile > section nav:before {
+	top:-13px;
+}
+.header .main-nav .mobile > section a:hover + nav,
+.header .main-nav .mobile > section nav:hover {
+	display: block!important;
+	z-index: 11;
 }
