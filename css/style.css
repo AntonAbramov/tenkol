@@ -1135,7 +1135,7 @@ a.btn-orange {
 }
 .save-money h2{
 	font-size:32px;
-	margin:0 0 10px;
+	margin:0 0 6px;
 	color:#fff;
 
 }
@@ -1227,6 +1227,7 @@ a.btn-orange {
 	right:-155px;
 	top:10px;
 	z-index: 2;
+	display: none;
 }
 .calculate-price .btn-orange:before {
 	display:none;
@@ -1491,8 +1492,7 @@ a.btn-orange {
 	width: 80px;
 }
 .contact-bg{
-	background: url(../img/contact-bg.jpg) no-repeat 50% 0;
-	padding:55px 0 30px;
+	padding:55px 40px 30px;
 	margin:0 0 20px;
 	position: relative;
 	z-index: 2;
@@ -1599,6 +1599,7 @@ a.btn-orange {
 	text-align:center;
 	max-width: 940px;
 	margin:50px auto;
+	padding:0 20px;
 }
 .estimate-header h1{
 	color: #4C4B4B;
@@ -1617,15 +1618,13 @@ a.btn-orange {
 }
 .estimate-page .inn {
 	margin:0 auto;
+	padding:0 20px;
 }
 .estimate-page .left-side {
-	width:470px;
 	margin:0 auto;
 }
 .estimate-page .right-side {
-	width:470px;
-	padding-left:90px;
-	margin:0 auto;
+	margin:20px auto;
 }
 .estimate-page .blue {
 	color:#013255;
@@ -1666,8 +1665,8 @@ a.btn-orange {
 .estimate-page ul.input-list label {
 	width:150px;
 	display:block;
-	float:left;
 	padding-top:10px;
+	padding-bottom: 5px;
 }
 .estimate-page .control-holder {
 	overflow:hidden;
@@ -1678,6 +1677,7 @@ a.btn-orange {
 .estimate-page .checkbox-list {
 	border-bottom: 1px solid #bdbdbd;
 	margin:0 0 40px;
+	padding-bottom: 10px;
 }
 .estimate-page .checkbox-list:last-child {
 	border-bottom: none;
@@ -1690,7 +1690,6 @@ a.btn-orange {
 	display:block;
 	position: relative;
 	padding-right:45px;
-	width:185px;
 	float:none;
 	line-height:14px;
 	color:#969696;
@@ -1881,8 +1880,13 @@ a.btn-orange {
 	background: #fff;
 	width:220px;
 }
-
-
+.portfolio-body,
+.portfolio-header{
+	padding: 0 10px;
+}
+.w215.left {
+	float:none;
+}
 @media only screen and (min-width: 1400px) {
 	.contact-header:after {
 		background: url("../img/ball-contact.jpg") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);

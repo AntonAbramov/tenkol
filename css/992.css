@@ -89,7 +89,10 @@
 .estimate-page .right-side {
 	float: left;
 }
-
+.estimate-page .right-side {
+	padding-left:90px;
+	margin: 0 auto;
+}
 .main-form-section .six-min {
 	display: block;
 }
@@ -114,4 +117,7 @@
 }
 .header .main-nav .mobile{
 	display: block;
+}
+.estimate-page .inn  {
+	padding:0;
 }
