@@ -1282,10 +1282,10 @@ a.btn-orange {
 	width:100%;
 }
 .left-column {
-	width:40%;
 	padding-left:10px;
-	padding-right:30px;
 	float:left;
+	padding-right:10px;
+	width:50%;
 }
 .content-body {
 	overflow:hidden;
