@@ -136,3 +136,7 @@
 	display: block!important;
 	z-index: 11;
 }
+.header .contacts {
+	float:left;
+	margin-left:60px;
+}
