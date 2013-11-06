@@ -37,7 +37,7 @@ jQuery(window).load ->
 
 	$("body").on "click", (event)->
 		if $(event.target).hasClass("link")
-			return false;
+
 		else
 			if $(".mobile").find("section").hasClass("opened")
 				$(".mobile").find("section").removeClass("opened").find("nav").slideUp()
@@ -53,6 +53,8 @@ $(window).scroll =>
 $(window).resize =>
 	if $(window).width() > 992
 		$(".mobile").show()
+
+	return
 
 stickyMenu = ->
 	if $(window).width() > 800
@@ -73,13 +75,13 @@ stickyMenu = ->
 		else
 			$(".left-column").removeClass("fixed")
 
-
+	return
 
 
 mainNav = ->
 
 	$(".main-nav .mobile > section").find("a").on "click", (ev) ->
-		ev.preventDefault()
+
 		if $(@).parents("section").hasClass("opened")
 			$(@).parents("section").removeClass("opened").find("nav").hide()
 		else if $(".main-nav > section").hasClass("opened")
@@ -92,8 +94,4 @@ mainNav = ->
 		$(".mobile").slideToggle(->
 			$(".mobile").find("section").removeClass("opened").find("nav").slideUp()
 		)
-
-
-
-
-		return
+	return
