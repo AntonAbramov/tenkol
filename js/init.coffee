@@ -16,7 +16,7 @@ $(document).ready ->
 				idx = $(@).index()
 				$(@).parents(".tabs-section").find(".tabs span").removeClass("active")
 				$(@).addClass('active').focus()
-				$(@).parents(".tabs-section").find(".tab-body").removeClass('opened').eq(idx).addClass('opened')
+				$(@).parents(".tabs-section").find(".tab-body").hide().removeClass('opened').eq(idx).addClass('opened').show()
 
 			idx = $(this).index()+1;
 			if idx == $(".tabs").find('span').length

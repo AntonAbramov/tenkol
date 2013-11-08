@@ -728,6 +728,9 @@ textarea  {
 	text-align:center;
 	width:100%;
 }
+.tabs-section .tabs + .tab-body {
+	display:block;
+}
 .main .tabs-section .tabs span {
 	text-indent: -999em;
 	cursor: pointer;
